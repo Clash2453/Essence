@@ -164,7 +164,7 @@
     color: transparent !important;
     fill: FieldText !important;
     background: none !important;
-    opacity: 20%;
+    opacity: 50%;
     padding-right: 20px !important;
     padding-left: 4px !important;
     -moz-window-dragging: var(--WindowDraggingFromNewtabButton);
@@ -647,42 +647,88 @@ findbar {
 }
 
 /* custom buttons */
+/* To switch between buttons just comment out the ones you wont be using  */
+/* Dark mode buttons */
+
 #ublock0_raymondhill_net-BAP {
-    list-style-image: url(window/adblock.svg) !important;
+    list-style-image: url(window/darkModeIcons/adblock.svg) !important;
 }
 
 #jetpack-extension_dashlane_com-BAP {
-    list-style-image: url(window/dashlane.svg) !important;
+    list-style-image: url(window/darkModeIcons/dashlane.svg) !important;
 }
 
 #PanelUI-menu-button {
-    list-style-image: url(window/side_navigation.svg) !important;
+    list-style-image: url(window/darkModeIcons/side_navigation.svg) !important;
 }
 
 #permissions-granted-icon {
-    list-style-image: url(window/switch.svg) !important;
+    list-style-image: url(window/darkModeIcons/switch.svg) !important;
 }
 
 #forward-button {
-    list-style-image: url(window/right.svg) !important;
+    list-style-image: url(window/darkModeIcons/right.svg) !important;
 }
 
 #back-button {
-    list-style-image: url(window/left.svg) !important;
+    list-style-image: url(window/darkModeIcons/left.svg) !important;
 }
 
 #reload-button {
-    list-style-image: url(window/refresh.svg) !important;
+    list-style-image: url(window/darkModeIcons/refresh.svg) !important;
 }
 
 #stop-button {
-    list-style-image: url(window/stop.svg) !important;
+    list-style-image: url(window/darkModeIcons/stop.svg) !important;
 }
 
 .tab-close-button {
-    list-style-image: url(window/minus.svg) !important;
+    list-style-image: url(window/darkModeIcons/minus.svg) !important;
 }
 
 #tabs-newtab-button > .toolbarbutton-icon {
-    list-style-image: url(window/add.svg) !important;    
+    list-style-image: url(window/darkModeIcons/add.svg) !important;    
+}
+
+/* Light mode buttons */
+
+
+#ublock0_raymondhill_net-BAP {
+    list-style-image: url(window/darkModeIcons/adblock.svg) !important;
+}
+
+#jetpack-extension_dashlane_com-BAP {
+    list-style-image: url(window/darkModeIcons/dashlane.svg) !important;
+}
+
+#PanelUI-menu-button {
+    list-style-image: url(window/lightModeIcons/side_navigation.svg) !important;
+}
+
+#permissions-granted-icon {
+    list-style-image: url(window/lightModeIcons/switch.svg) !important;
+}
+
+#forward-button {
+    list-style-image: url(window/lightModeIcons/right.svg) !important;
+}
+
+#back-button {
+    list-style-image: url(window/lightModeIcons/left.svg) !important;
+}
+
+#reload-button {
+    list-style-image: url(window/lightModeIcons/refresh.svg) !important;
+}
+
+#stop-button {
+    list-style-image: url(window/lightModeIcons/stop.svg) !important;
+}
+
+.tab-close-button {
+    list-style-image: url(window/lightModeIcons/minus.svg) !important;
+}
+
+#tabs-newtab-button>.toolbarbutton-icon {
+    list-style-image: url(window/lightModeIcons/add.svg) !important;
 }
