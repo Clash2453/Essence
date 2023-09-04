@@ -693,7 +693,7 @@ findbar {
 /* Light mode buttons */
 
 
-#ublock0_raymondhill_net-BAP {
+/* #ublock0_raymondhill_net-BAP {
     list-style-image: url(window/darkModeIcons/adblock.svg) !important;
 }
 
@@ -731,4 +731,4 @@ findbar {
 
 #tabs-newtab-button>.toolbarbutton-icon {
     list-style-image: url(window/lightModeIcons/add.svg) !important;
-}
+} */
